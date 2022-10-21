@@ -1,0 +1,158 @@
+.footer-first{
+    background-color: #a8d640;
+
+    padding: 20px 30px 20px 80px;
+
+}
+.footer-first-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-top{
+    color: #fff;
+}
+.footer-sec{
+    background-color: #262626;
+
+}
+.footer-sec-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-third{
+    background-color: #262626;
+
+}
+.copyright{
+    background-color: #000;
+    font-size: 12px;
+    padding: 10px;
+}
+.footer-top p, .footer-top h2{
+    margin: 0;
+}
+.email-phone{
+    display: flex;
+}
+.Email, .phone{
+    display: flex;
+    align-items: center;
+}
+.footer-third .footer-third-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1150px;
+    margin: 0 auto;
+    border-top: 1px solid #000;
+    padding: 35px 0 20px;
+}
+.copyright p{
+    padding-top: 7px;
+}
+.Email svg{
+    margin-right: 5px;
+    border: 1px solid #fff;
+    padding: 3px;
+    border-radius: 50px;
+}
+.Email {
+    margin-right: 25px;
+}
+.phone svg{
+    margin-right: 5px;
+    border: 1px solid #fff;
+    padding: 3px;
+    border-radius: 50px;
+}
+.footer-secn h2{
+    font-size: 13px;
+}
+.footer-secn{
+    width: 20%;
+    margin: 40px 25px 40px 30px;
+    border-right: 1px solid #000;
+}
+.footer-secn p{
+    margin-top: 12px;
+    font-size: 13px;
+}
+.footer-sec .footer-secn:last-child{
+    border-right: 0;
+}
+.footer-third .logo{
+    font-weight: bold;
+    font-size: 40px;
+}
+.icons-footer .icone-social svg{
+    margin-right: 15px;
+    border: 1px solid #fff;
+    padding: 3px;
+    border-radius: 50px;
+    color: black;
+    background-color: #fff;
+}
+.icone-social{
+    display: flex;
+    flex-wrap: wrap;
+}
+.icons-footer{
+    width: 15%;
+}
+.icons-footer .icone-social svg:last-child,
+.icons-footer .icone-social svg:nth-last-child(2){
+    margin-top: 15px;
+}
+.icone-other{
+    display: flex;
+    margin-top: 15px;
+}
+.icone-other span{
+    font-size: 12px;
+}
+.icone-other svg{
+    font-size: 13px;
+    margin-right: 3px;
+}
+.android{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.apple{
+    display: flex;
+    align-items: center;
+}
+.text_input p{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.text_input input{
+    height: 35px;
+    width: 300px;
+    border-radius: 5px 0 0 5px;
+    border: 0;
+}
+.text_input button{
+    background-color: #a8d640;
+    color: #fff;
+    border: 0;
+    height: 37px;
+    border-radius: 0 5px 5px 0;
+    padding-top: 6px;
+    width: 50px;
+    font-size: 25px;
+
+}
+.input-wrap{
+    display: flex;
+}
+.copyright-imgs img{
+    height: 40px;
+    margin-left: 30px;
+}
+.copyright-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

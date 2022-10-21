@@ -1,0 +1,16 @@
+.main-wraper{
+    display: flex;
+    align-items: center;
+}
+.title{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.date{
+    font-size: 14px;
+    color: #c6c6c6;
+}
+.text-wrap{
+    margin-left: 20px;
+}

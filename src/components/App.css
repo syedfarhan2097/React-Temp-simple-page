@@ -1,0 +1,25 @@
+.sfeatures_heading{
+    font-size: 16px;
+    border-top: 1px solid #d7d7d7;
+    padding-top: 15px;
+    margin-top: 80px;
+}
+.our_features{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+button{
+    height: 30px;
+    border-radius: 20px;
+    box-shadow: unset;
+    background-color: transparent;
+    border-width: 1px;
+    padding: 0 15px;
+}

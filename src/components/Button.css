@@ -1,0 +1,16 @@
+.button-prim button{
+    background-color: #a8d640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-prim button img{
+    margin-left: 2px;
+    margin-top: -1px;
+}
+.button-sec button{
+    background-color: #232323;
+    color: #fff;
+    border-color: #fff;
+
+}

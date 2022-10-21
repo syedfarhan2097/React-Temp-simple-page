@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 40px;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+}
+.header-links span{
+    margin-right: 20px;
+    font-size: 14px;
+}
+.header-icons img{
+    margin-right: 15px;
+}
+.header-left{
+    font-weight: bold;
+    font-size: 21px;
+}
