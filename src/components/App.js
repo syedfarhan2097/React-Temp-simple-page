@@ -7,6 +7,28 @@ import Banner from "./Banner";
 import "./App.css";
 
 const App = () => {
+  const feature = [
+    {
+      source : "img/f1.png",
+      title : "Unique Design",
+      date : "July 13 2025"
+    },
+    {
+      source : "img/f2.png",
+      title : "Quality Materials",
+      date : "July 15 2025"
+    },
+    {
+      source:"img/f3.png",
+      title:"High Print Quality",
+      date:"July 23 2025"
+    },
+    {
+      source:"img/f4.png",
+      title:"Good reviews",
+      date:"July 27 2025"
+    }
+  ]
   return (
     <>
     <div className="container">
@@ -19,26 +41,8 @@ const App = () => {
       />
       <h2 className="sfeatures_heading">Our Features</h2>
       <div className="our_features">
-        <ImageTitleDate
-          source="img/f1.png"
-          title="Unique Design"
-          date="July 13 2025"
-        ></ImageTitleDate>
-        <ImageTitleDate
-          source="img/f2.png"
-          title="Quality Materials"
-          date="July 15 2025"
-        ></ImageTitleDate>
-        <ImageTitleDate
-          source="img/f3.png"
-          title="High Print Quality"
-          date="July 23 2025"
-        ></ImageTitleDate>
-        <ImageTitleDate
-          source="img/f4.png"
-          title="Good reviews"
-          date="July 27 2025"
-        ></ImageTitleDate>
+        {feature.map((item)=>
+        <ImageTitleDate source={item.source} title={item.title} date={item.date}></ImageTitleDate>)}
       </div>
       <Work />
       <AboutUs />

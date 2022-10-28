@@ -1,6 +1,6 @@
 import ButtonPrimery from "./ButtonPrimery";
 import "./Head.css"
-const Head = () => {
+const Head = (props) => {
   return (
     <div className="header">
       <div className="header-left">ToolM5</div>
