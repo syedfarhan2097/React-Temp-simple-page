@@ -1,36 +1,24 @@
-.bg-black{
-    background-color: #000000;
-    border-radius: 20px;
+.bg-black {
+  background-color: #000000;
+  border-radius: 20px;
 }
 .white-bg-btn {
-    background-color: #fff;
+  background-color: #fff;
 }
-.card{
-    background-color: #fff;
-    border-radius: 20px;
-    width: 47%;
-    margin: 0 10px 20px 20px;
-    text-align: left;
+
+.card-main {
+  display: flex;
+  flex-wrap: wrap;
 }
-.card-main{
-    display: flex;
-    flex-wrap: wrap;
+.bg-black h3 {
+  color: #fff;
+  font-size: 21px;
+  font-weight: 400;
+  padding: 20px 20px 0;
 }
-.bg-black h3{
-    color: #fff;
-    font-size: 21px;
-    font-weight: 400;
-    padding: 20px 20px 0;
-}
-.card-wrap{
-    height: 417px;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-.buttons-wraper{
-    display: flex;
-    justify-content: space-between;
-    margin-top: auto;
+
+.buttons-wraper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
 }

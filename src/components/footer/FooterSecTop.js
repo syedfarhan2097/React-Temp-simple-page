@@ -1,16 +1,11 @@
-const FooterSecTop = (props) =>{
+const FooterSecTop = ({title, dis,}) =>{
+
     return(
 
         <div className="footer-secn">
-            <h2>{props.title}</h2>
-            <p>{props.dis}</p>
-            <p>{props.dis}</p>
-            <p>{props.dis}</p>
-            <p>{props.dis}</p>
-            <p>{props.dis}</p>
-            <p>{props.dis}</p>
-            <p>{props.dis}</p>
-            <p>{props.dis}</p>
+            <h2>{title}</h2>
+            {dis.map((list)=><p>{list.name}</p>)}
+
         </div>
     );
 } 

@@ -91,6 +91,7 @@
     border-radius: 50px;
     color: black;
     background-color: #fff;
+    opacity: 0.2;
 }
 .icone-social{
     display: flex;
